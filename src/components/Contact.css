@@ -1,0 +1,195 @@
+.contact-section { 
+   padding: 8rem 2rem 4rem; 
+   background: linear-gradient(to bottom, #1a1a1a, #0a0a0a); 
+   position: relative; 
+ } 
+ 
+ .contact-content { 
+   display: flex; 
+   justify-content: center; 
+   margin-top: 2rem; 
+ } 
+ 
+ .contact-card { 
+   background: rgba(255, 255, 255, 0.03); 
+   backdrop-filter: blur(20px); 
+   border: 1px solid rgba(0, 255, 255, 0.2); 
+   border-radius: 24px; 
+   padding: 3rem; 
+   max-width: 800px; 
+   width: 100%; 
+   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3); 
+   transition: transform 0.3s ease, box-shadow 0.3s ease; 
+ } 
+ 
+ .contact-card:hover { 
+   transform: translateY(-10px); 
+   box-shadow: 0 30px 80px rgba(0, 255, 255, 0.15); 
+ } 
+ 
+ .contact-intro { 
+   color: #cbd5e1; 
+   font-size: 1.2rem; 
+   line-height: 1.8; 
+   margin-bottom: 3rem; 
+   text-align: center; 
+ } 
+ 
+ .contact-methods { 
+   display: flex; 
+   flex-direction: column; 
+   gap: 1.5rem; 
+   margin-bottom: 3rem; 
+ } 
+ 
+ .contact-method { 
+   display: flex; 
+   align-items: center; 
+   gap: 1.5rem; 
+   padding: 1.5rem; 
+   background: rgba(255, 255, 255, 0.02); 
+   border: 1px solid rgba(0, 255, 255, 0.15); 
+   border-radius: 16px; 
+   transition: transform 0.3s ease, background 0.3s ease, border-color 0.3s ease; 
+   text-decoration: none; 
+ } 
+ 
+ .contact-method:hover { 
+   transform: translateX(10px); 
+   background: rgba(0, 255, 255, 0.05); 
+   border-color: #00ffff; 
+ } 
+ 
+ .contact-icon { 
+   width: 50px; 
+   height: 50px; 
+   border-radius: 12px; 
+   background: linear-gradient(135deg, rgba(0, 255, 255, 0.1), rgba(14, 165, 233, 0.1)); 
+   display: flex; 
+   align-items: center; 
+   justify-content: center; 
+   border: 1px solid rgba(0, 255, 255, 0.3); 
+   flex-shrink: 0; 
+ } 
+ 
+ .contact-icon svg { 
+   color: #00ffff; 
+   width: 24px; 
+   height: 24px; 
+ } 
+ 
+ .contact-details { 
+   display: flex; 
+   flex-direction: column; 
+   gap: 0.3rem; 
+ } 
+ 
+ .contact-label { 
+   color: #94a3b8; 
+   font-size: 0.85rem; 
+   font-weight: 500; 
+   text-transform: uppercase; 
+   letter-spacing: 0.5px; 
+ } 
+ 
+ .contact-value { 
+   color: #e2e8f0; 
+   font-size: 1.1rem; 
+   font-weight: 600; 
+ } 
+ 
+ .contact-social { 
+   border-top: 1px solid rgba(0, 255, 255, 0.1); 
+   padding-top: 2rem; 
+ } 
+ 
+ .social-title { 
+   color: #e2e8f0; 
+   font-size: 1.3rem; 
+   font-weight: 600; 
+   margin-bottom: 1.5rem; 
+   text-align: center; 
+ } 
+ 
+ .social-links-large { 
+   display: flex; 
+   gap: 1.5rem; 
+   justify-content: center; 
+ } 
+ 
+ .social-link-large { 
+   display: flex; 
+   align-items: center; 
+   gap: 0.75rem; 
+   padding: 1rem 2rem; 
+   background: transparent; 
+   border: 2px solid rgba(0, 255, 255, 0.3); 
+   border-radius: 12px; 
+   color: #00ffff; 
+   text-decoration: none; 
+   font-weight: 600; 
+   font-size: 1rem; 
+   transition: transform 0.3s ease, background 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease; 
+ } 
+ 
+ .social-link-large:hover { 
+   transform: translateY(-5px); 
+   background: rgba(0, 255, 255, 0.1); 
+   border-color: #00ffff; 
+   box-shadow: 0 10px 30px rgba(0, 255, 255, 0.3); 
+ } 
+ 
+ .footer { 
+   margin-top: 4rem; 
+   padding-top: 2rem; 
+   border-top: 1px solid rgba(0, 255, 255, 0.1); 
+   text-align: center; 
+ } 
+ 
+ .footer p { 
+   color: #64748b; 
+   font-size: 0.95rem; 
+ } 
+
+ .responsibility-card {
+   background: rgba(255, 255, 255, 0.03);
+   backdrop-filter: blur(20px);
+   border: 1px solid rgba(0, 255, 255, 0.15);
+   border-radius: 20px;
+   padding: 2rem;
+   transition: transform 0.3s ease, border-color 0.3s ease;
+ }
+
+ .responsibility-card:hover {
+   transform: translateY(-5px);
+   border-color: #00ffff;
+ }
+
+ .responsibility-title {
+   font-size: 1.3rem;
+   font-weight: 700;
+   color: #e2e8f0;
+   margin-bottom: 0.5rem;
+ }
+ 
+ @media (max-width: 768px) { 
+   .contact-section { 
+     padding: 4rem 1rem 2rem; 
+   } 
+ 
+   .contact-card { 
+     padding: 2rem; 
+   } 
+ 
+   .contact-method:hover { 
+     transform: translateY(-5px); 
+   } 
+ 
+   .social-links-large { 
+     flex-direction: column; 
+   } 
+ 
+   .social-link-large { 
+     justify-content: center; 
+   } 
+ } 
