@@ -9,10 +9,10 @@ const Header = () => {
       animate={{ y: 0 }}
       transition={{ duration: 0.5, type: 'spring' }}
     >
-      <div className="max-w-7xl mx-auto flex h-20 items-center justify-between px-6">
+      <div className="max-w-7xl mx-auto flex h-16 sm:h-20 items-center justify-between px-3 sm:px-6">
         <motion.h1 
           whileHover={{ scale: 1.05 }}
-          className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/50"
+          className="text-lg sm:text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/50 truncate"
         >
           Dherya Jain
         </motion.h1>

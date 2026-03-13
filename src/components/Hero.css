@@ -273,6 +273,23 @@
    } 
  } 
  
+ @media (max-width: 1024px) {
+   .orb-1 {
+     width: 300px;
+     height: 300px;
+   }
+   
+   .orb-2 {
+     width: 250px;
+     height: 250px;
+   }
+   
+   .orb-3 {
+     width: 200px;
+     height: 200px;
+   }
+ }
+
  @media (max-width: 768px) { 
    .hero-content { 
      padding: 1rem; 
@@ -290,5 +307,130 @@
  
    .shape { 
      display: none; 
-   } 
+   }
+   
+   .orb-1 {
+     width: 250px;
+     height: 250px;
+     top: -50px;
+     left: -50px;
+   }
+   
+   .orb-2 {
+     width: 180px;
+     height: 180px;
+   }
+   
+   .orb-3 {
+     width: 150px;
+     height: 150px;
+   }
+ }
+
+ @media (max-width: 640px) {
+   .hero-section {
+     min-height: 85vh;
+   }
+   
+   .hero-title {
+     font-size: clamp(2rem, 7vw, 3.5rem);
+   }
+   
+   .greeting {
+     font-size: clamp(1rem, 2.5vw, 1.5rem);
+   }
+   
+   .hero-subtitle {
+     font-size: clamp(1rem, 2vw, 1.5rem);
+   }
+   
+   .hero-description {
+     font-size: clamp(0.9rem, 1.8vw, 1.1rem);
+     max-width: 100%;
+   }
+   
+   .hero-content {
+     padding: 0.75rem;
+   }
+   
+   .btn-primary, 
+   .btn-secondary {
+     padding: 0.75rem 1.25rem;
+     font-size: 0.95rem;
+     width: 100%;
+     justify-content: center;
+   }
+   
+   .hero-cta {
+     flex-direction: column;
+     gap: 0.75rem;
+   }
+   
+   .scroll-indicator {
+     width: 40px;
+     height: 40px;
+     bottom: 1rem;
+   }
+ }
+
+ @media (max-width: 480px) {
+   .hero-section {
+     min-height: 70vh;
+     overflow-x: hidden;
+   }
+   
+   .hero-background {
+     overflow: hidden;
+   }
+   
+   .orb-1 {
+     width: 200px;
+     height: 200px;
+     top: -100px;
+     left: -100px;
+   }
+   
+   .orb-2 {
+     width: 150px;
+     height: 150px;
+     right: -50px;
+     bottom: -50px;
+   }
+   
+   .orb-3 {
+     width: 120px;
+     height: 120px;
+   }
+   
+   .hero-content {
+     padding: 0.5rem;
+   }
+   
+   .hero-title {
+     font-size: clamp(1.75rem, 6vw, 2.5rem);
+     margin-bottom: 0.75rem;
+   }
+   
+   .greeting {
+     margin-bottom: 0.3rem;
+   }
+   
+   .hero-subtitle {
+     margin-bottom: 1rem;
+   }
+   
+   .hero-description {
+     margin-bottom: 1.5rem;
+     font-size: 0.9rem;
+   }
+   
+   .btn-primary, 
+   .btn-secondary {
+     padding: 0.7rem 1rem;
+     font-size: 0.9rem;
+   }
+   
+   .scroll-indicator {
+     display: none;
+   }
  } 

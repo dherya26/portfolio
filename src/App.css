@@ -200,9 +200,70 @@ body {
   transition: transform 0.1s linear;
 }
 
+@media (max-width: 1024px) {
+  .jc-loading-wrapper {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #ddd;
+    height: 50vh;
+  }
+}
+
 @media (max-width: 768px) {
   .custom-cursor, .cursor-dot {
     display: none;
+  }
+  
+  body {
+    overflow-x: hidden !important;
+  }
+  
+  .copilot-toast {
+    width: 90vw;
+    padding: 16px;
+  }
+  
+  .copilot-toast-heading {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .copilot-toast-image {
+    width: 140px;
+  }
+}
+
+@media (max-width: 480px) {
+  .copilot-toast {
+    width: 95vw;
+    padding: 12px;
+  }
+  
+  .copilot-toast-wrapper {
+    flex-direction: column;
+  }
+  
+  .copilot-toast-left {
+    flex: 1 1 100%;
+  }
+  
+  .copilot-toast-image {
+    flex: 1 1 100%;
+    width: 100%;
+  }
+  
+  .copilot-toast-heading {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .jc-loading-wrapper {
+    height: 100vh;
+  }
+  
+  .jc-loading-title {
+    font-size: 20px;
+    margin-bottom: 20px;
   }
 }
 
