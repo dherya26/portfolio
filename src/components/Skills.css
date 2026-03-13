@@ -4,22 +4,19 @@
    position: relative; 
    width: 100%; 
    box-sizing: border-box; 
-   overflow-x: hidden; 
+   overflow: hidden; 
  } 
  
  .skills-grid { 
    display: grid; 
-   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
+   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
    gap: 2rem; 
    margin-top: 2rem; 
    width: 100%; 
    box-sizing: border-box; 
- } 
- 
- .skill-category-card { 
-   perspective: 1000px; 
-   height: 100%; 
-   width: 100%; 
+   max-width: 1200px; 
+   margin-left: auto; 
+   margin-right: auto; 
    box-sizing: border-box; 
  } 
  
@@ -280,3 +277,24 @@
      border-radius: 8px;
    }
  } 
+ @media (min-width: 1024px) and (max-width: 1365px) {
+   .skills-section {
+     padding: 6rem 1rem;
+   }
+   
+   .skills-grid {
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+     gap: 1.5rem;
+   }
+ }
+
+ @media (min-width: 768px) and (max-width: 1024px) {
+   .skills-section {
+     padding: 5rem 1rem;
+   }
+   
+   .skills-grid {
+     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+     gap: 1.5rem;
+   }
+ }

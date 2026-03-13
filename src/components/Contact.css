@@ -4,9 +4,15 @@
    position: relative; 
    width: 100%; 
    box-sizing: border-box; 
-   overflow-x: hidden; 
+   overflow: hidden; 
+ } 
+ 
+ .contact-content { 
+   display: flex; 
    justify-content: center; 
    margin-top: 2rem; 
+   width: 100%; 
+   box-sizing: border-box; 
  } 
  
  .contact-card { 
