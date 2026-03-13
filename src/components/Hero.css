@@ -383,6 +383,9 @@
    .hero-section {
      min-height: 70vh;
      overflow-x: hidden;
+     display: flex;
+     align-items: center;
+     justify-content: center;
    }
    
    .hero-background {
@@ -409,7 +412,9 @@
    }
    
    .hero-content {
-     padding: 0.5rem;
+     padding: 1rem 0.75rem;
+     width: 100%;
+     box-sizing: border-box;
    }
    
    .hero-title {

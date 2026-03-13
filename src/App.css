@@ -159,9 +159,13 @@ body {
 .home-container {
   position: relative;
   width: 100%;
-   overflow: hidden; 
-   background: linear-gradient(to bottom, #0a0a0a, #1a1a1a); 
-   box-sizing: border-box; 
+  min-height: 100vh;
+  overflow: hidden; 
+  background: linear-gradient(to bottom, #0a0a0a, #1a1a1a); 
+  box-sizing: border-box; 
+}
+
+.custom-cursor {
   position: fixed;
   left: 0;
   top: 0;
