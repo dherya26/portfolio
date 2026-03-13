@@ -5,10 +5,20 @@
    box-sizing: border-box; 
    overflow: hidden; 
    background: linear-gradient(to bottom, #1a1a1a, #0f0f10);
+   display: flex; 
+   justify-content: center; 
  }
 
  .experience-section.alt-bg-2 {
    background: linear-gradient(to bottom, #0f0f10, #1a1a1a);
+ }
+ 
+ .section-container { 
+   max-width: 1400px; 
+   margin: 0 auto; 
+   width: 100%; 
+   padding: 0 1rem; 
+   box-sizing: border-box; 
  }
  
  .timeline { 

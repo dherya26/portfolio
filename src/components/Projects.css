@@ -5,19 +5,21 @@
    width: 100%; 
    box-sizing: border-box; 
    overflow: hidden; 
+   display: flex; 
+   justify-content: center; 
  } 
  
  .section-container { 
-   max-width: 1200px; 
+   max-width: 1400px; 
    margin: 0 auto; 
    width: 100%; 
-   padding: 0; 
+   padding: 0 1rem; 
    box-sizing: border-box; 
  } 
  
  .projects-grid { 
    display: grid; 
-   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
    gap: 2rem; 
    perspective: 1500px; 
    height: 100%; 
