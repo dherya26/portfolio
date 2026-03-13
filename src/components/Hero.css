@@ -130,6 +130,8 @@
    max-width: 1200px; 
    padding: 2rem; 
    margin: 0 auto; 
+   width: 100%; 
+   box-sizing: border-box; 
  } 
  
  .hero-text-container { 
@@ -195,6 +197,8 @@
    max-width: 700px; 
    line-height: 1.6; 
    margin-bottom: 2.5rem; 
+   word-wrap: break-word; 
+   overflow-wrap: break-word; 
  } 
  
  .hero-cta { 

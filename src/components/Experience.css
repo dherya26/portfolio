@@ -1,9 +1,9 @@
 .experience-section { 
    padding: 8rem 2rem; 
    position: relative; 
- } 
-
- .experience-section.alt-bg-1 {
+   width: 100%; 
+   box-sizing: border-box; 
+   overflow-x: hidden; 
    background: linear-gradient(to bottom, #1a1a1a, #0f0f10);
  }
 

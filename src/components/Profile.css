@@ -7,6 +7,9 @@
  .section-container { 
    max-width: 1200px; 
    margin: 0 auto; 
+   width: 100%; 
+   padding: 0 1rem; 
+   box-sizing: border-box; 
  } 
  
  .section-title { 
@@ -41,6 +44,8 @@
    gap: 3rem; 
    transition: transform 0.3s ease, box-shadow 0.3s ease; 
    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3); 
+   width: 100%; 
+   box-sizing: border-box; 
  } 
  
  .about-card:hover { 
@@ -53,6 +58,9 @@
    font-size: 1.1rem; 
    line-height: 1.8; 
    margin-bottom: 1.5rem; 
+   word-wrap: break-word; 
+   overflow-wrap: break-word; 
+   word-break: break-word; 
  } 
  
  .about-intro { 
