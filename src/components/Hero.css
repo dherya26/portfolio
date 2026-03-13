@@ -8,6 +8,14 @@
    background: #0a0a0a; 
    width: 100%; 
    box-sizing: border-box; 
+ } 
+ 
+ .hero-background { 
+   position: absolute; 
+   inset: 0; 
+   overflow: hidden; 
+ } 
+ 
  .gradient-orb { 
    position: absolute; 
    border-radius: 50%; 
