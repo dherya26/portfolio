@@ -5,18 +5,19 @@
    width: 100%; 
    box-sizing: border-box; 
    overflow: hidden; 
-   display: flex; 
-   justify-content: center; 
  } 
  
  .skills-grid { 
    display: grid; 
-   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
    gap: 2rem; 
    margin-top: 2rem; 
    width: 100%; 
    box-sizing: border-box; 
-   max-width: 1400px; 
+   max-width: 1200px; 
+   margin-left: auto; 
+   margin-right: auto; 
+   box-sizing: border-box; 
  } 
  
  .skill-card-inner { 
